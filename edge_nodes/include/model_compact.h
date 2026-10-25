@@ -7,30 +7,10 @@
     
 
 static inline int32_t model_compact_tree_0(const int16_t *features, int32_t features_length) {
-          if (features[1] < 1072) {
-              if (features[0] < 766) {
-                  if (features[3] < 23977) {
-                      return 0;
-                  } else {
-                      return 1;
-                  }
-              } else {
-                  if (features[1] < 1042) {
-                      return 1;
-                  } else {
-                      return 0;
-                  }
-              }
+          if (features[0] < 14929) {
+              return 0;
           } else {
-              if (features[1] < 1097) {
-                  if (features[1] < 1097) {
-                      return 1;
-                  } else {
-                      return 0;
-                  }
-              } else {
-                  return 1;
-              }
+              return 1;
           }
         }
         
