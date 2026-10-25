@@ -1,8 +1,8 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c99 -I include
+CFLAGS = -Wall -Wextra -std=c99 -I  include
 
 main.out: main.o parse_csv.o
-	$(CC) main.o parse_csv.o -o main.out
+	$(CC) main.o parse_csv.o -o main.out -lm
 
 main.o : src/main.c
 	$(CC) $(CFLAGS) -c src/main.c -o main.o
