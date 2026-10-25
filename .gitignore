@@ -1,2 +1,2 @@
-*.backup_data
-*.setup/__pycache__
+__pycache__/
+tmp/
